@@ -9,7 +9,7 @@ body {
     display: grid;
     align-items: center;
     text-align: center;
-    grid-template-rows: min-content auto;
+    grid-template-rows: min-content min-content auto;
     margin: 0;
 }
 
@@ -49,4 +49,10 @@ h1 {
     font-size: 1.2em;
     color: white;
     cursor: pointer;
+}
+
+#tap {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
 }
