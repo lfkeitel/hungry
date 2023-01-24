@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: lawngreen;
+    font-family: sans-serif;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-rows: min-content auto;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#result {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#cities {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.restButton {
+    display: block;
+    text-align: center;
+    border: none;
+    background-color: #007CFC;
+    padding: 20px 40px 20px 40px;
+    margin: 0 10px 0 10px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
